@@ -1,0 +1,14 @@
+name: bazaarBD
+version: 1.0.0
+api: 5.0.0
+main: Bobydev\BazaarBD\Main
+author: Bobydev
+description: "Made By Bobydev"
+commands:
+  bazaarbd:
+    description: "Open the bazaar menu"
+    permission: bazaarbd.command
+permissions:
+  bazaarbd.command:
+    default: true
+
